@@ -4,7 +4,7 @@ export default function Footer({completedtodos,totaltodos}) {
   return (
     <div className={styles.stylefooter}>
       <span className={styles.list}>Completed Todos: {completedtodos}</span>
-      <span className={styles.list}>Total Todos: {totaltodos}</span>
+      <span className={styles.list}>Total Number Todos: {totaltodos}</span>
     </div>
   )
 }
